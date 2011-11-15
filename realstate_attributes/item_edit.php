@@ -8,8 +8,8 @@
         ?>
         <label for="property_type"><?php _e('Type', 'realstate_attributes'); ?></label>
         <select name="property_type" id="property_type">
-            <option value="FOR RENT" <?php if(@$detail['e_type'] == 'FOR RENT') { echo "selected"; } ?>><?php _e('For rent', 'realstate_attributes'); ?></option>
-            <option value="FOR SALE" <?php if(@$detail['e_type'] == 'FOR SALE') { echo "selected"; } ?>><?php _e('For sale', 'realstate_attributes'); ?></option>
+            <option value="EN ALRQUILER" <?php if(@$detail['e_type'] == 'EN ALRQUILER') { echo "selected"; } ?>><?php _e('For rent', 'realstate_attributes'); ?></option>
+            <option value="EN VENTA" <?php if(@$detail['e_type'] == 'EN VENTA') { echo "selected"; } ?>><?php _e('For sale', 'realstate_attributes'); ?></option>
         </select>
     </div>
     <div class="row">
@@ -87,9 +87,9 @@
         ?>
         <label for="status"><?php _e('Status', 'realstate_attributes'); ?></label>
         <select name="status" id="status">
-            <option value="NEW CONSTRUCTION" <?php if(@$detail['e_status'] == 'NEW CONSTRUCTION') { echo "selected"; } ?>><?php _e('New construction', 'realstate_attributes'); ?></option>
-            <option value="TO RENOVATE" <?php if(@$detail['e_status'] == 'TO RENOVATE') { echo "selected"; } ?>><?php _e('To renovate', 'realstate_attributes'); ?></option>
-            <option value="GOOD CONDITION" <?php if(@$detail['e_status'] == 'GOOD CONDITION') { echo "selected"; } ?>><?php _e('Good condition', 'realstate_attributes'); ?></option>
+            <option value="NUEVA CONSTRUCCION" <?php if(@$detail['e_status'] == 'NUEVA CONSTRUCCION') { echo "selected"; } ?>><?php _e('New construction', 'realstate_attributes'); ?></option>
+            <option value="A RENOVAR" <?php if(@$detail['e_status'] == 'A RENOVAR') { echo "selected"; } ?>><?php _e('To renovate', 'realstate_attributes'); ?></option>
+            <option value="BUENA CONDICION" <?php if(@$detail['e_status'] == 'BUENA CONDICION') { echo "selected"; } ?>><?php _e('Good condition', 'realstate_attributes'); ?></option>
         </select>
     </div>
     <div class="row">
