@@ -100,8 +100,8 @@
         <div class="">
             <select name="property_type" id="property_type">
                 <option value="" <?php echo (Params::getParam('property_type')=='')?'selected':''; ?>><?php _e('Undefined', 'realstate_attributes'); ?></option>
-                <option value="FOR RENT" <?php echo (Params::getParam('property_type')=='FOR RENT')?'selected':''; ?>><?php _e('For rent', 'realstate_attributes'); ?></option>
-                <option value="FOR SALE" <?php echo (Params::getParam('property_type')=='FOR SALE')?'selected':''; ?>><?php _e('For sale', 'realstate_attributes'); ?></option>
+                <option value="EN ALRQUILER" <?php echo (Params::getParam('property_type')=='EN ALRQUILER')?'selected':''; ?>><?php _e('For rent', 'realstate_attributes'); ?></option>
+                <option value="EN VENTA" <?php echo (Params::getParam('property_type')=='EN VENTA')?'selected':''; ?>><?php _e('For sale', 'realstate_attributes'); ?></option>
             </select>
         </div>
     </div>

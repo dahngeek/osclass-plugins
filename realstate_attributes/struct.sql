@@ -3,7 +3,7 @@ CREATE TABLE /*TABLE_PREFIX*/t_item_house_attr (
     s_square_meters INT(6) UNSIGNED,
     i_num_rooms INT(2) UNSIGNED,
     i_num_bathrooms INT(2) UNSIGNED,
-    e_type ENUM('EN RENTA', 'EN VENTA'),
+    e_type ENUM('EN ALRQUILER', 'EN VENTA'),
     e_status ENUM('NUEVA CONSTRUCCION', 'A RENOVAR', 'BUENA CONDICION'),
     i_num_floors INT(2) UNSIGNED,
     i_num_garages INT(2) UNSIGNED,
